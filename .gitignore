@@ -1,2 +1,5 @@
 node_modules
 .dccache
+storybook-static
+.DS_Store
+.firebase
