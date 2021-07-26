@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "coding-pixels-2b3e0"
+  },
+  "targets": {
+    "coding-pixels-2b3e0": {
+      "hosting": {
+        "byxel": [
+          "byxel-codingpixels"
+        ]
+      }
+    }
+  }
+}
