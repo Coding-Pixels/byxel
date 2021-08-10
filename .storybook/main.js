@@ -1,3 +1,4 @@
+const Dotenv = require('dotenv-webpack');
 module.exports = {
   "stories": [
     "../stories/**/*.stories.mdx",
@@ -16,4 +17,7 @@ module.exports = {
       propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
     },
   },
+  plugins: [
+    new Dotenv()
+  ]
 }
